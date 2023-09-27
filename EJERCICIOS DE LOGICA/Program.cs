@@ -15,6 +15,7 @@ namespace EJERCICIOS_DE_LOGICA
             Console.WriteLine("7.- NUMERO, CONSONANTE O VOCAL");
             Console.WriteLine("8.- SUMA DE NUMEROS PARES E IMPARES");
             Console.WriteLine("9.- NUMERO MENOR Y MAYOR DE N NUMEROS");
+            Console.WriteLine("10.- SERIE DE FIBONACCI");
 
             Console.WriteLine();
             Console.WriteLine("¿Que ejercicio deseas ejecutar?");
@@ -64,6 +65,8 @@ namespace EJERCICIOS_DE_LOGICA
                     numMayMen.MenMayNNum();
                     break;
                 case 10:
+                    var serFib = new x_SERIE_DE_FIBONACCI();
+                    serFib.Fibonacci();
                     break;
                     
             }
